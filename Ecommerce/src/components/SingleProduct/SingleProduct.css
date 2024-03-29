@@ -1,0 +1,150 @@
+.single-product-main-content {
+    margin: 50px 40px;
+}
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.single-product-page {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.left{
+    background-color: rgba(0,0,0,0.05);
+    width: 500px;
+    flex-shrink: 0;
+    height: 450px;
+}
+.left>img{
+    width: 100%;
+    display: block;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 0 35px;
+}
+.name{
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.price {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.desc{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #6b6b6b;
+}
+.cart-button{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+.quantity-button{
+    width: fit-content;
+    display: flex;
+    border: 2px solid rgba(0,0,0,0.2) ;
+    margin-top: 10px;
+    height: 50px;
+}
+.quantity-button> span {
+    font-size:18px ;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b6b6b;
+
+}
+.quantity-button>span:nth-child(1){
+    border-right: 2px solid rgba(0,0,0,0.2);
+}
+.quantity-button>span:nth-child(2){
+  width: 60px;
+}
+.quantity-button>span:nth-child(3){
+    border-left: 2px solid rgba(0,0,0,0.2);
+}
+.add-to-cart-button{
+    outline: 0;
+    border: 0;
+    height: 50px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background: #8e2de2;
+    border-bottom:3px solid #6516aa ;
+    flex-grow: unset;
+    margin-top: 8px;
+
+}
+.divider{
+    margin: 20px 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.1);
+
+}
+.info-item{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.info-item>text-bold{
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+
+}
+.info-item>text-bold:nth-child(1){
+    margin-bottom: 20px;
+}
+.info-item>span{
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color:#6b6b6b;
+}
+.info-item>svg{
+    margin: 0 5px;
+}
+
+
+
+
+
+
+
+@media screen and (width <= 600px){
+    .single-product-main-content{
+        margin: 20px 0;
+
+    }
+    .layout{
+        max-width: calc(100%-20px);
+        margin: 0 auto;
+    }
+    .single-product-page {
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: auto;
+    }
+    .right{
+        padding: 20px;
+    }
+}

@@ -1,0 +1,36 @@
+.products-container {
+    margin: 75px 0;
+
+}
+.Products-heading {
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.Products-heading::after{
+    content: "";
+    display: block;
+    margin-top: 10px;
+    width: 50px;
+    height: 3px;
+    background-color: #8e2de2;
+}
+.Product-items {
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+
+}
+@media screen and (width <= 600px){
+    .products-container{
+        margin: 50px 0;
+    }
+    .Products-heading{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .Product-items{
+        gap: 10px;
+    }
+}

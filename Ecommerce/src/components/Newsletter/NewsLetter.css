@@ -1,0 +1,44 @@
+.news-main {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("../../assets/newsletter-bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    gap: .6rem;
+}
+.news-head {
+    font-size: .85rem;
+    opacity: 70%;
+    
+}
+.news-text {
+    font-size: 1rem;
+}
+.form-input {
+    font-size: 1.1rem;
+    padding: .3rem ;
+}
+.news-btn {
+    background: #813FB6;
+    padding: .35rem;
+    margin-left: .3rem;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.news-foot{
+    font-size: .7rem;
+    opacity: 80%;
+}
+.news-icon{
+    display:flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+.news-icon{
+    font-size: 2.2rem;
+}

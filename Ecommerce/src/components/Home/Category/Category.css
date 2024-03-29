@@ -1,0 +1,38 @@
+.shop-by-category {
+    margin: 50px 0;
+}
+.categories {
+    display: flex;
+    /* flex-flow: wrap; */
+    gap: 10px;
+    padding: .5rem 3rem;
+}
+.category {
+    background-color: black;
+    width: calc(25%-10px);
+    cursor: pointer;
+    overflow: hidden;
+}
+.category>img {
+    width: 100%;
+    display: block;
+    transition: all ease 0.3s;
+}
+.category>img:hover {
+    transform: scale(1.2);
+}
+@media screen and (width <= 600px){
+    .shop-by-category{
+        margin: 25px 0;
+    }
+    .categories{
+        display: flex;
+        flex-flow: wrap;
+        padding: 0;
+        
+    }
+
+    .category{
+        width: calc(48%);
+    }
+}

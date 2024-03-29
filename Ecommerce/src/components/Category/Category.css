@@ -1,0 +1,22 @@
+.category-main-content {
+    margin: 75px 0;
+}
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.category-title{
+    font-size: 28px;
+}
+
+@media screen and (width <= 600px){
+    .category-main-content{
+        margin: 30px 0;
+    }
+    .layout{
+        max-width: calc(100%-20px);
+    }
+    .category-title{
+        font-size: 20px;
+    }
+}

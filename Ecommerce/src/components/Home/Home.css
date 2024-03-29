@@ -1,0 +1,14 @@
+.home-content {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+/* 
+.layout{
+    width: 100%;
+    padding: 1.5rem 7rem;
+} */
+@media screen and (width <= 600px){
+    .home-content{
+        max-width: calc(100%-20px);
+    }
+}
